@@ -5,7 +5,7 @@
 BACKUP_DIR="/backups"
 DATE=$(date +%Y-%m-%d)
 BACKUP_FILE="$BACKUP_DIR/apache_backup_$DATE.tar.gz"
-# BACKUP_FILE="/backups/apache"
+# BACKUP_FILE="/backups/apache/apache_backup_$DATE.tar.gz"
 LOG_FILE="$BACKUP_DIR/apache_backup_$DATE.log"
 
 
